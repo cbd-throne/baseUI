@@ -12,3 +12,5 @@
 + 处理less
 + 处理jsx
 + 不对第三方包进行打包, 减少UI库体积
++ 对文件进行压缩 optimization.minimizer -> uglifyjs-webpack-plugin
+
