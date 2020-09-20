@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "antd": ["packages/index.tsx"],
-      "antd/es/*": ["packages/*"]
-    },
-    "strictNullChecks": true,
+    "module": "ES2020",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "experimentalDecorators": true,
     "jsx": "preserve",
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
-    "noImplicitAny": true,
+    "noLib": false,
     "target": "es6",
-    "lib": ["dom", "es2017"],
-    "skipLibCheck": true
+    "sourceMap": true,
+    "lib": [
+      "es2020", "DOM"
+    ],
+    "allowSyntheticDefaultImports": true
   },
-  "exclude": ["node_modules", "lib", "es"]
+  "exclude": [
+    "node_modules"
+  ]
 }

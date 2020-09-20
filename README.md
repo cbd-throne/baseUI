@@ -3,14 +3,13 @@
 一个注释比代码还多的不上生产的练习UI库
 
 **css预处理器使用less**
-**react组件使用hooks写法**
+**组件使用hooks写法**
 
 ### peerDependences
-对react的依赖版本 >16.8
+对vue的依赖版本 >=3.0.0
 
 ### webpack 基本配置
 + 处理less
-+ 处理jsx
 + 不对第三方包进行打包, 减少UI库体积
 + 对文件进行压缩 optimization.minimizer -> uglifyjs-webpack-plugin
 
