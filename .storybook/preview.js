@@ -1,6 +1,6 @@
 import { addDecorator } from '@storybook/html'
 import { createApp } from 'vue'
-// import '../packages/theme-chalk/src/index.scss'
+import '../packages/theme/src/index.scss'
 import NbUI from '../packages/nbui'
 import './demo.css'
 

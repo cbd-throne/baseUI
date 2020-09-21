@@ -19,7 +19,7 @@
   >
     <i v-if="loading" class="nb-icon-loading"></i>
     <i v-if="!loading && icon" :class="icon"></i>
-    <span v-if="$slots.defualt"><slot></slot></span>
+    <span v-if="$slots.default"><slot></slot></span>
   </button>
 </template>
 
