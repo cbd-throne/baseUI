@@ -1,10 +1,9 @@
+const path = require('path');
+
 module.exports = {
-  "stories": [
-    "../stories/**/*.stories.mdx",
-    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
+  "stories": ['../packages/**/doc/*.stories.[tj]s'],
+  "presets": [path.resolve(__dirname, './custom-presets')],
   "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials"
+    "@storybook/addon-storysource",
   ]
 }

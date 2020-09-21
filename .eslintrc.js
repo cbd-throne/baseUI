@@ -13,7 +13,7 @@ module.exports = {
     node: true,
   },
   plugins: [
-    '@typescript-eslint',
+    '@typescript-eslint'
   ],
   extends: [
     'plugin:@typescript-eslint/recommended',

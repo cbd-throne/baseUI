@@ -1,3 +1,6 @@
+
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
 
@@ -8,7 +11,7 @@ const babelOptions = {
 module.exports = {
   mode: 'production',
   stats: 'verbose',
-  entry: path.resolve(__dirname, '../packages/index.ts'),
+  entry: path.resolve(__dirname, '../packages/nbui/index.ts'),
   output: {
     path: path.resolve(__dirname, '../lib'),
     publicPath: '/',
