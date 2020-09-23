@@ -1,12 +1,18 @@
 import type { App } from 'vue'
 import NbButton from '../button'
+import NbAlert from '../alert'
+import NbIcon from '../icon'
 
 export {
-  NbButton
+  NbButton,
+  NbAlert,
+  NbIcon
 }
 
 const install = (app: App): void => {
-  NbButton(app)
+  NbButton(app),
+  NbAlert(app),
+  NbIcon(app)
 }
 
 const nbUI = {
