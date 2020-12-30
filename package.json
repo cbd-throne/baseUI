@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "webpack --config ./config/webpack.config.js",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "cdir": "node ./scripts/add_component.js"
   },
   "author": "",
   "license": "ISC",
